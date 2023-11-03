@@ -15,4 +15,5 @@ getline(cin,s);
     cout<< hashh[ch];
     
      }
+     
   
