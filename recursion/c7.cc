@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-bool check(vector<int>& nums) {
+bool checke(vector<int>& nums) {
         int n=nums.size();
         int cnt=0;
         for(int i=1;i<n;i++){
@@ -15,6 +15,8 @@ bool check(vector<int>& nums) {
     }
 
 int main(){
-    
-check();
+int n;
+int arr[n];
+for( int i=0;i<n;i++) cin>>arr[i];
+checke(arr);
 }
