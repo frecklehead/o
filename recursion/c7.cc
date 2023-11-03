@@ -13,6 +13,8 @@ bool check(vector<int>& nums) {
         }
         return cnt<=1;
     }
-int main(){
 
+int main(){
+    
+check();
 }
