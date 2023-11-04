@@ -36,12 +36,34 @@ int main (){
 
    vector<int > v;
    v.push_back(1);
-   v.push_emplace_back(2);
+   v.emplace_back(2);
    vector<pair <int ,int>> vi;
    vi.push_back({1,2});
    vi.emplace_back(1,3);// you dont require to add the curly braces;
-   vector<int > pola (5 ,90);// (no of the indexes , value for index) {90,90,90,90,90l,90}
-vector <int >pola2(pola);//copy of pola;
- 
-    }
+   vector<int > pola (5 ,90);// (no of the indexes , value for index) {90,90,90,90,90l,90}copy of pola;
+ cout<< pola[0];
+ //accessing the vector  elements using itrators
+ vector<int>::iterator it = v.begin();
 
+ cout<<*(it)<<endl;
+ vector<int>:: iterator  i = v.end();//points to the memory just after the last elements so i-- gies the last digit
+
+ i--;
+ cout<< *(i); 
+ cout<< v.back();//printing the last charactor
+cout<<endl;
+     
+     for( vector<int>::iterator x = pola.begin(); x !=v.end();x++){
+        cout<<*(x)<< endl;//iterator  reads the memory of the tthe vector elements
+     }
+     
+     for (auto p= pola.begin();p!=v.end();p++){
+        cout<<*(p);
+     }
+     for( auto k: pola){
+        cout<<endl;
+        cout<<k;
+     }
+
+     // for( auto  variable_name :  vector ){ cout << variable ( no   need  for the  * for  this time )}
+     }
