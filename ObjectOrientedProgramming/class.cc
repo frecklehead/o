@@ -1,15 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
 class Employee{
+    private:
+     string name;
+    string company;
+    int age;// encapsulating
+
   public://using public access modifiers
     //attributes that the employee has such as a name.
-    string name;
-    string company;
-    int age;
+   
     //method is the behivour
     void introduceyourself(){
         cout<<name<<" "<<company <<" "<<age;
 ;    }
+void get name(){
+    
+}
+
 //creating your own constructor
 Employee (string Name, string Company, int Age ){
     name=Name;
@@ -43,6 +50,7 @@ int main (){
 /* Encapsulation
 idea of bundling of data and methods that operate on that dat and are grouped in thee class
 we do this to interact to with the methods  but not modify
+
 how do i  provide a way for other classes to interact the propertied of my class
 i provide very specific public functions other class can enoke and interact with my data.
 getters and setters
