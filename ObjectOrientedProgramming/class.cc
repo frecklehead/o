@@ -39,4 +39,13 @@ int main (){
    //A constructor is a special type of method that id invoked each time that an object of a class is created.
 
 
+
+/* Encapsulation
+idea of bundling of data and methods that operate on that dat and are grouped in thee class
+we do this to interact to with the methods  but not modify
+how do i  provide a way for other classes to interact the propertied of my class
+i provide very specific public functions other class can enoke and interact with my data.
+getters and setters
+*/
+
 }
