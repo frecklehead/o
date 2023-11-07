@@ -16,6 +16,9 @@ class Employee{
 void get name(){
     
 }
+void setname{
+    //setter
+}
 
 //creating your own constructor
 Employee (string Name, string Company, int Age ){
